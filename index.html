@@ -20,36 +20,44 @@
     <!-- Navigation bar -->
     <nav
       class="navbar navbar-expand-lg navbar-light bg-light container-fluid"
-      style="position: sticky; top: 0; right: 0; z-index: 999;"
+      style="position: sticky; top: 0; right: 0; z-index: 999"
     >
-      <a class="navbar-brand" href="#">RMC</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="container">
+        <a class="navbar-brand" href="#">RMC</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about" onclick="closeNavbar()">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#services" onclick="closeNavbar()">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact" onclick="closeNavbar()">Contact</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" onclick="closeNavbar()">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about" onclick="closeNavbar()"
+                >About</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services" onclick="closeNavbar()"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" onclick="closeNavbar()"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -66,7 +74,13 @@
     </section>
 
     <!-- About section -->
-    <section id="about" class="py-5" data-aos="fade-up"  width="100%" height="100%">
+    <section
+      id="about"
+      class="py-5"
+      data-aos="fade-up"
+      width="100%"
+      height="100%"
+    >
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -78,20 +92,36 @@
             </p>
           </div>
           <div class="col-md-6" data-aos="fade-right">
-            <img src="assest/vecteezy_building-construction-site-with-workers_7498688.jpg" alt="" width="100%" height="100%">
+            <img
+              src="assest/vecteezy_building-construction-site-with-workers_7498688.jpg"
+              alt=""
+              width="100%"
+              height="100%"
+            />
           </div>
         </div>
       </div>
     </section>
 
     <!-- Services section -->
-    <section id="services" class="bg-light py-5" data-aos="fade-up" width="100%" height="100%">
+    <section
+      id="services"
+      class="bg-light py-5"
+      data-aos="fade-up"
+      width="100%"
+      height="100%"
+    >
       <div class="container">
         <h2 class="text-center">Our Services</h2>
-        <div class="row" >
+        <div class="row">
           <div class="col-md-4" width="18rem" data-aos="fade-right">
             <div class="card">
-              <img src="assest/vecteezy_flat-isometric-concept-3d-illustration-factory-industrial_18993754.jpg" width="100%" class="card-img-top" alt="service 1" />
+              <img
+                src="assest/vecteezy_flat-isometric-concept-3d-illustration-factory-industrial_18993754.jpg"
+                width="100%"
+                class="card-img-top"
+                alt="service 1"
+              />
               <div class="card-body">
                 <h5 class="card-title">Concrete Mixing</h5>
                 <p class="card-text">
@@ -102,7 +132,12 @@
           </div>
           <div class="col-md-4" width="18rem" data-aos="fade-right">
             <div class="card">
-              <img src="assest/vecteezy_isometric-illustration-design-concept-cement-mixer-truck_7885636.jpg" width="100%" class="card-img-top" alt="Event 1" />
+              <img
+                src="assest/vecteezy_isometric-illustration-design-concept-cement-mixer-truck_7885636.jpg"
+                width="100%"
+                class="card-img-top"
+                alt="Event 1"
+              />
               <div class="card-body">
                 <h5 class="card-title">Delivery</h5>
                 <p class="card-text">
@@ -113,7 +148,12 @@
           </div>
           <div class="col-md-4" width="18rem" data-aos="fade-right">
             <div class="card">
-              <img src="assest/vecteezy_cute-flat-mixer-truck-vector_14007713.jpg" width="100%" class="card-img-top" alt="Event 1" />
+              <img
+                src="assest/vecteezy_cute-flat-mixer-truck-vector_14007713.jpg"
+                width="100%"
+                class="card-img-top"
+                alt="Event 1"
+              />
               <div class="card-body">
                 <h5 class="card-title">Consultation</h5>
                 <p class="card-text">
@@ -135,17 +175,37 @@
             <form id="contactForm">
               <div class="form-group">
                 <label for="name">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter your name"
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter your email"
+                  required
+                />
               </div>
               <div class="form-group">
                 <label for="message">Message</label>
-                <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Enter your message"
+                  required
+                ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary btn-block">Submit</button>
+              <button type="submit" class="btn btn-primary btn-block">
+                Submit
+              </button>
             </form>
           </div>
         </div>
@@ -167,22 +227,24 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script>
       AOS.init();
-       function closeNavbar() {
-         if (document.documentElement.clientWidth <992) {
-           $('.navbar-collapse').collapse('hide');
-         }
-       }
-       document.getElementById('contactForm').addEventListener('submit', function(event) {
-         event.preventDefault(); // Prevent form submission
-        
-         // You can add code here to handle the form submission (e.g., sending data to a server)
-      
-         // For demonstration purposes, let's just display a confirmation message
-       alert('Thank you! Your message has been submitted.');
-      
-         // Reset the form
-        document.getElementById('contactForm').reset();
-       });
+      function closeNavbar() {
+        if (document.documentElement.clientWidth < 992) {
+          $(".navbar-collapse").collapse("hide");
+        }
+      }
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (event) {
+          event.preventDefault(); // Prevent form submission
+
+          // You can add code here to handle the form submission (e.g., sending data to a server)
+
+          // For demonstration purposes, let's just display a confirmation message
+          alert("Thank you! Your message has been submitted.");
+
+          // Reset the form
+          document.getElementById("contactForm").reset();
+        });
     </script>
   </body>
 </html>
